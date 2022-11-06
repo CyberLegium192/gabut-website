@@ -1,0 +1,57 @@
+#geser{
+  overflow: hidden;
+  margin: 5px
+}
+#geser figure {
+  position: relative;
+  width: 500%;
+  margin: 0;
+  left: 0;
+  animation: 20s slidir infinite;
+}
+#geser figure img{
+  float: left;
+  width: 20%;
+  height: 120px;
+  background-position-y: 1px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+@keyframes slidir{
+  0% {
+    left: 0;
+  }
+  20% {
+    left: 0;
+  }
+  25% {
+    left: -100%;
+  }
+  30% {
+    left: -100%;
+  }
+  45% {
+    left: -200%;
+  }
+  50% {
+    left: -200%;
+  }
+  60% {
+    left: -300%;
+  }
+  65% {
+    left: -300%;
+  }
+  80% {
+    left: -400%;
+  }
+  100% {
+    left: 0;
+  }
+}
+
+.laptop{
+  color: black;
+  font-size: 1em;
+  text-decoration: none;
+}

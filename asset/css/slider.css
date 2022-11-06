@@ -1,0 +1,76 @@
+.kontiner{
+  width: 3000px;
+  overflow: hidden;
+  gap: 5px;
+  margin-top: 10px;
+  padding-bottom: 10px;
+}
+.slider{
+  display: flex;
+  width: 140px;
+  height: 215px;
+  flex-direction: column;
+  border-radius: 5px;
+  margin-right: 3px;
+}
+.image{
+  width: 100px;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.image img{
+  width: 100%;
+  border-radius: 5px;
+}
+.product-name{
+  padding: 5px;
+  margin-top: -10px;
+  text-align: center;
+  margin-left: -20px;
+}
+.product-name h3{
+  font-size: 15px;
+  margin-left: 10px;
+}
+.product-detail{
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 2px;
+  margin-left: -17px;
+}
+.product-detail p{
+  font-size: 10px;
+}
+/* RANDOM CLASS */
+.sam{
+  margin-top: 6px;
+}
+.hp{
+  text-decoration: none;
+  color: white;
+  font-size: .7em;
+  cursor: pointer;
+}
+.judul{
+  background-color: #0c9ec3;
+  width: 40%;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  text-align: center;
+  position: relative;
+}
+.garis{
+  border-bottom: 2px solid #d0d0d0;
+  width: 90%;
+  height: 39px;
+  margin-left: 15px;
+}
+.selena{
+  margin-bottom: 20px;
+}
